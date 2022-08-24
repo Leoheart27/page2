@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url("../img/backblue.jpg");
+    background-position: left;
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 140px;
+    font-size: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.container {
+    display: flex;
+    border: 3px solid black;
+    width: fit-content;
+    background-color: rgb(5, 85, 213);
+    
+}
+
+.form_div {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid black;
+    background-color: rgb(162, 191, 237);
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+.prof_div {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 2px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons input {
+    margin: 10px;
+    background-color: rgb(119, 164, 236);
+    font-size: 20px;
+}
+
+.buttons input:hover {
+    background-color: rgb(57, 100, 170) ;
+}
+h3 {
+    text-decoration: underline;
+    margin-bottom: 5;
+}
+
+h4 {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding: 3px;
+}
+
+@media (max-width:600px) {
+    .container {
+        flex-direction: column;
+    }
+}
